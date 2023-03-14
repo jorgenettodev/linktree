@@ -2,14 +2,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(10,10,10);
     color: rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    font-family: Verdana Tahoma sans-serif;
-
+    font-family: Verdana, Tahoma, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    background-color: #10283c;
+    background-image: linear-gradient(160deg, #10283c 0%, #e5b529 100%);
+    
 }
 
 .cabecalho {
@@ -29,29 +32,57 @@ body {
 }
 
 .container__imagem {
-    width: 180px;
-    height: 154px;
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    overflow: hidden;
 }
+
 .imagem {
-    width: 180px;
-    height: 154px;
+    height: 100%;
 }
+
 
 .container {
     width: 91%;
     max-width: 680px;
-    margin: 10px;
+    margin: 25px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 .lista__link {
     width: 100%;
-    height: 56px;
     background-color: rgb(37, 37, 37);
     margin: 7px;
     border-radius: 17px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+.link__icone {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+    fill: rgb(240, 240, 240);
+    
+}
+
+.link__icone svg {
+    padding: 3px;
+    width: 40px;
+    height: 40px;
 }
