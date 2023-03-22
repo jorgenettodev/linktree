@@ -84,22 +84,31 @@ h3 {
 }
 
 .lista__link {
-    width: 100%;
+    width: 80%;
     background-color: var(--dourado);
     margin: 7px;
     border-radius: 17px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-decoration: none;
     color: black;
 }
 
 .link__icone {
+    padding-left: 50px;
     margin: 4px 8px;
     width: 44px;
     height: 44px;
     fill: black;
+
     
+}
+
+.texto {
+    width: 75%;
+    text-align: center;
+    padding-left: 0;
+    margin-left: -50px;
 }
 
 .link__icone svg {
