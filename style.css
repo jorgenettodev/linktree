@@ -124,9 +124,6 @@ h3 {
 @media only screen and (max-width: 600px) {
 
     /* Ajusta o tamanho da fonte para mobile */
-    h1 {
-        font-size: 16px;
-    }
 
     .cabecalho {
         justify-content: space-between;
